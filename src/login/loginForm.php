@@ -74,9 +74,9 @@ if($qtd > 0){
 USERS;
   }
 }
-else echo "Contas não encontradas <a href='?action=create'>Crie sua conta</a>"
+else echo "Contas não encontradas"
 ?> 
 <div id="create">
-<a href="<?= "?$_SERVER[QUERY_STRING]&action=create"?>">Crie a sua clicando aqui !</a>
+<a href="<?= "?$_SERVER[QUERY_STRING]&action=create"?>">Crie a sua conta, clicando aqui !</a>
 </div>
 </div>
